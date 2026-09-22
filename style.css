@@ -1,0 +1,63 @@
+/* ===== Ewha Market 공통 스타일 ===== */
+/* PPT "Exercise: Decorate basic HTML file / Add Style to Header /
+   Add Navigation Bar / Add Content" 구조를 기반으로 작성 */
+
+body {
+  margin: 0;
+  font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;
+}
+
+/* ---- Header ---- */
+/* PPT p.81 : header { background-color: #f1f1f1; padding: 20px; text-align: center;} */
+header {
+  background-color: #00843D;   /* 이화그린 */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ---- Navigation Bar (horizontal) ---- */
+/* PPT p.82 예제 그대로, 색상만 이화그린 계열로 변경 */
+nav {
+  overflow: hidden;
+  background-color: #00602B;   /* 이화그린 진한 톤 */
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #E8F5E9;   /* 이화그린 연한 톤 */
+  color: #00602B;
+}
+
+/* ---- Three-column content (aside / section / aside) ---- */
+/* PPT p.85 : aside, section { float: left; padding: 10px; }
+              aside { width: 23%; } section { width: 45%; } */
+aside, section {
+  float: left;
+  padding: 10px;
+}
+
+aside {
+  width: 23%;
+}
+
+section {
+  width: 45%;
+}
+
+/* ---- Footer ---- */
+footer {
+  clear: both;
+  background-color: #00602B;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
